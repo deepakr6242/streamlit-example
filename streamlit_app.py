@@ -37,6 +37,6 @@ with st.echo(code_location='below'):
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
     
-    st.altair_chart(alt.Chart(pd.DataFrame(data), height=50, width=500)
+    st.pye_chart(alt.Chart(pd.DataFrame(data), height=50, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
